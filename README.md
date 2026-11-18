@@ -2,22 +2,22 @@
 
 Aplikasi desktop sederhana untuk mengelola katalog produk, dibuat dengan **JavaFX** dan **SQLite**. Mendukung operasi CRUD lengkap: tambah, tampil, ubah, dan hapus produk.
 
-![Tampilan Aplikasi](docs/screenshot.png)
+!\[Tampilan Aplikasi](docs/screenshot.png)
 
 ## Fitur
 
-- **Tambah produk**: isi nama, harga, dan pilih foto, lalu klik **Simpan**.
-- **Tampil katalog**: produk tampil sebagai kartu berisi foto, nama, harga, dan ID.
-- **Ubah produk**: klik **Edit** pada kartu, ubah datanya di form, lalu klik **Perbarui** (atau **Batal** untuk membatalkan).
-- **Hapus produk**: klik **Hapus** pada kartu, lalu konfirmasi pada dialog yang muncul.
-- **Validasi input**: nama wajib diisi, harga harus angka bulat lebih dari nol, dan foto wajib dipilih.
+* **Tambah produk**: isi nama, harga, dan pilih foto, lalu klik **Simpan**.
+* **Tampil katalog**: produk tampil sebagai kartu berisi foto, nama, harga, dan ID.
+* **Ubah produk**: klik **Edit** pada kartu, ubah datanya di form, lalu klik **Perbarui** (atau **Batal** untuk membatalkan).
+* **Hapus produk**: klik **Hapus** pada kartu, lalu konfirmasi pada dialog yang muncul.
+* **Validasi input**: nama wajib diisi, harga harus angka bulat lebih dari nol, dan foto wajib dipilih.
 
 ## Teknologi
 
-- Java 17
-- JavaFX 21 (controls dan FXML)
-- SQLite (`sqlite-jdbc` 3.49.1.0)
-- Maven
+* Java 17
+* JavaFX 21 (controls dan FXML)
+* SQLite (`sqlite-jdbc` 3.49.1.0)
+* Maven
 
 ## Struktur Proyek
 
@@ -42,14 +42,12 @@ KatalogProduk/
 Prasyarat: **JDK 17 atau lebih baru** dan **Maven** sudah terpasang.
 
 ```bash
-git clone https://github.com/USERNAME/NAMA-REPO.git
+git clone https://github.com/Oliver-ist/KatalogProduk.git
 cd NAMA-REPO/KatalogProduk
 mvn javafx:run
 ```
 
 Database SQLite dibuat otomatis di `data/katalog.db` saat aplikasi pertama kali dijalankan, jadi tidak perlu pengaturan tambahan.
 
-## Penulis
 
-- Nama: _isi nama Anda_
-- NIM: _isi NIM Anda_
+
